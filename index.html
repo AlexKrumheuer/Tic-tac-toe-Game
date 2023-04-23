@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/tic-tac-toe.png" type="image/x-icon">
+  </head>
+  <body>
+    <section class="container-content">
+      <h1>Tic Tac Toe</h1>
+      <div id="board">
+        <div class="square" data-index="0"></div>
+        <div class="square" data-index="1"></div>
+        <div class="square" data-index="2"></div>
+        <div class="square" data-index="3"></div>
+        <div class="square" data-index="4"></div>
+        <div class="square" data-index="5"></div>
+        <div class="square" data-index="6"></div>
+        <div class="square" data-index="7"></div>
+        <div class="square" data-index="8"></div>
+      </div>
+      <button class="button-reset" id="reset">Reset</button>
+    </section>
+    <section class="container-results">
+      <div class="wins-container">Status: <span id="status"></span></div>
+      <div class="wins-container">Player turn: <span id="player-turn"></span></div>
+      <div class="wins-container">Player X wins: <span id="points-player1">0</span></div>
+      <div class="wins-container">Player O wins: <span id="points-player2">0</span></div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
